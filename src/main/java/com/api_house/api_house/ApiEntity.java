@@ -5,7 +5,7 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@Entity
+// @Entity
 public class ApiEntity {
     @Id
     private int id;
