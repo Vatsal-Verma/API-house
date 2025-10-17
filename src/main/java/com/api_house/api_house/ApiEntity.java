@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 // @Entity
 public class ApiEntity {
-    @Id
+    // @Id
     private int id;
     private String name;
 }
