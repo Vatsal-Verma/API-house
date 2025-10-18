@@ -299,14 +299,10 @@ body::-webkit-scrollbar-corner {
   margin-top: 50px;
   text-decoration: none;
   list-style: none;
-  /* display: flex;
-  justify-content: center; */
-  /* text-align: center; */
-
 }
 
 .showNav {
   position: absolute;
-  top: 15vh;
+  top: 105px;
   left: 40px;
 }
