@@ -132,7 +132,7 @@ export default function Element() {
                             </span>
                             <br />
                             <span className="text">
-                                - Get All Boys: <span className="status">/api/getAllBoys</span>
+                                - Get All Boys:  <span className="status">/api/getAllBoys</span>
                             </span>
 
                             <div className="copy-field">
@@ -190,11 +190,11 @@ export default function Element() {
                             <span className="prompt">-</span> <span className="prompt-text">Methods:</span>
                             <br />
                             <span className="text">
-                                - All Countries: <span className="status">/api/getAllCountry</span>
+                                - All Countries:   <span className="status">/api/getAllCountry</span>
                             </span>
                             <br />
                             <span className="text">
-                                - Random Country: <span className="status">/api/getRandomCountry</span>
+                                - Random Country:  <span className="status">/api/getRandomCountry</span>
                             </span>
                             <br />
                             <span className="text">
@@ -231,6 +231,76 @@ export default function Element() {
                                     <span></span>    "languages": ["Hindi", "English"],<br />
                                     <span></span>    "timezones": ["UTC+05:30"],<br />
                                     <span></span>    "flag": "🇮🇳"<br />
+                                        ]
+                                        
+  
+                        </pre>
+                    </div>
+                </section>
+            </main>
+
+               <main className="content">
+                <section className="terminal-wrapper">
+                    <div className="terminal">
+                        <div className="dots">
+                            <span className="dot red"></span>
+                            <span className="dot yellow"></span>
+                            <span className="dot cyan"></span>
+                        </div>
+
+                        <pre className="terminal-text">
+                            <span className="prompt">-</span> <span className="prompt-text">Mobile Configuration API</span>
+                            <span className="status"> new </span>
+                            <br />
+                            <span className="text">
+                                Provides details of mobile fonfiguration based on various factors. Fields include: name, brand, releaseYear, display, processor, ram, storage_options, camera, battery, price, os
+                            </span>
+                            <br />
+                            <span className="prompt">-</span> <span className="prompt-text">Methods:</span>
+                            <br />
+                            <span className="text">
+                                - All Mobiles:            <span className="status">/api/getAllMobiles</span>
+                            </span>
+                            <br />
+                            <span className="text">
+                                - Specific mobile detail: <span className="status">/api/getMobileByName/mobile_name</span>
+                            </span>
+                            <br />
+                            <span className="text">
+                                - Mobiles By Brand:       <span className="status">/api/getMobilesByBrand/brand_name</span>
+                            </span>
+
+                            <div className="copy-field">
+                                <input
+                                    type="text"
+                                    value="https://api-house-mobile-api.onrender.com"
+                                    readOnly
+                                />
+                                <div className="icons">
+                                    <button
+                                        onClick={() => handleCopy("https://api-house-mobile-api.onrender.com", "mobileApi")}
+                                        title="Copy URL"
+                                    >
+                                        {copiedApi === "mobileApi" ? "✔️" : "◼️"}
+                                    </button>
+                                </div>
+                            </div>
+                        </pre>
+                        <br />
+                        example:
+                        <pre className="status">
+                             <br />
+                                        [<br />
+                                    <span></span>    "name": "iPhone 17",<br />
+                                    <span></span>    "brand": "Apple",<br />
+                                    <span></span>    "release_year": 2025,<br />
+                                    <span></span>    "display": "6.1-inch Super Retina XDR OLED",<br />
+                                    <span></span>    "processor": "A19 Bionic",<br />
+                                    <span></span>    "ram": "8GB",<br />
+                                    <span></span>    "storage_options": [128, 256, 512],<br />
+                                    <span></span>    "battery": "3279 mAh",<br />
+                                    <span></span>    "price": 799,<br />
+                                    <span></span>    "os": "iOS 18"<br />
                                         ]
                                         
   
