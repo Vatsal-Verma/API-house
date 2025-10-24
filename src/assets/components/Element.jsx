@@ -309,6 +309,82 @@ export default function Element() {
                 </section>
             </main>
 
+            <main className="content">
+                <section className="terminal-wrapper">
+                    <div className="terminal">
+                        <div className="dots">
+                            <span className="dot red"></span>
+                            <span className="dot yellow"></span>
+                            <span className="dot cyan"></span>
+                        </div>
+
+                        <pre className="terminal-text">
+                            <span className="prompt">-</span> <span className="prompt-text">Plant Details API</span>
+                            <span className="status"> new </span>
+                            <br />
+                            <span className="text">
+                                Provides details of various plants based on various factors. Fields include: name, scientific name, family, type, origin, average height, light, water, soil, bloom time, edible, description
+                            </span>
+                            <br />
+                            <span className="prompt">-</span> <span className="prompt-text">Methods:</span>
+                            <br />
+                            <span className="text">
+                                - All Plants:                      <span className="status">/api/getAllPlants</span>
+                            </span>
+                            <br />
+                            <span className="text">
+                                - Specific plant details:          <span className="status">/api/getPlantByName/common_name</span>
+                            </span>
+                            <br />
+                            <span className="text">
+                                - Specific Plant Type details:     <span className="status">/api/getPlantsByType/plant_type</span>
+                            </span>
+                            <br />
+                            <span className="text">
+                                - Get Edible Plants:               <span className="status">/api/getEdiblePlants</span>
+                            </span>
+                            <div className="copy-field">
+                                <input
+                                    type="text"
+                                    value="https://api-house-plant-api.onrender.com"
+                                    readOnly
+                                />
+                                <div className="icons">
+                                    <button
+                                        onClick={() => handleCopy("https://api-house-plant-api.onrender.com", "plantApi")}
+                                        title="Copy URL"
+                                    >
+                                        {copiedApi === "plantApi" ? "✔️" : "◼️"}
+                                    </button>
+                                </div>
+                            </div>
+                        </pre>
+                        <br />
+                        example:
+                        <pre className="status">
+                             <br />
+                                        [<br />
+                                    <span></span>    "id": 4,<br />
+                                    <span></span>    "common_name": "Basil",<br />
+                                    <span></span>    "scientific_name": "Ocimum basilicum",<br />
+                                    <span></span>    "family": "Lamiaceae",<br />
+                                    <span></span>    "type": "Herb",<br />
+                                    <span></span>    "origin": "India",<br />
+                                    <span></span>    "avg_height_cm": 45,<br />
+                                    <span></span>    "light": "Full sun",<br />
+                                    <span></span>    "water": "Regular",<br />
+                                    <span></span>    "soil": "Moist, well-drained",<br />
+                                    <span></span>    "bloom_time": "Summer",<br />
+                                    <span></span>    "edible": true,<br />
+                                    <span></span>    "description": "Aromatic annual herb used in cooking, especially Italian cuisine."<br />
+                                        ]
+                                        
+  
+                        </pre>
+                    </div>
+                </section>
+            </main>
+
             <center>
                 <a href="https://github.com/vatsal-verma" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-github" style={{ color: "white", fontSize: "36px", marginBottom: "50px"}}></i>
