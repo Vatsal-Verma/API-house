@@ -205,6 +205,17 @@ body::-webkit-scrollbar-corner {
     border-radius: 5px;
 }
 
+.status-error {
+    margin: 15px;
+    padding: 5px;
+    color: red;
+    background-color: #ff545c22;
+    /* border: solid 0.3px; */
+    /* border-color: #00ff99; */
+
+    border-radius: 5px;
+}
+
 .copy-field {
   background-color: #111;
   border: 1px solid #2b2b2b;
