@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import './Body.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { useNavigate } from "react-router-dom";
 
 export default function Element() {
     const [navBar, setNavBar] = useState(false);
     const [copiedApi, setCopiedApi] = useState(null);
 
+    const navigate = useNavigate();
 
     const handleCopy = (text, apiName) => {
         navigator.clipboard.writeText(text);
@@ -119,7 +121,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Random User Generator</span>
-                            <span className="status"> new </span>                                                           <span className="status-error"> cors error </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
                             <br />
                             <span className="text">
                                 This API generates random names for girls and boys.
@@ -181,7 +183,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Country Details API</span>
-                            <span className="status"> new </span>                                                           <span className="status-error"> cors error </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
                             <br />
                             <span className="text">
                                 Provides details of countries. Fields include: Name, Capital, Region, Population, Area, Currency, Languages, Timezones, Flag
@@ -250,7 +252,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Mobile Configuration API</span>
-                            <span className="status"> new </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           
                             <br />
                             <span className="text">
                                 Provides details of mobile fonfiguration based on various factors. Fields include: name, brand, releaseYear, display, processor, ram, storage_options, camera, battery, price, os
@@ -320,7 +322,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Plant Details API</span>
-                            <span className="status"> new </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           
                             <br />
                             <span className="text">
                                 Provides details of various plants based on various factors. Fields include: name, scientific name, family, type, origin, average height, light, water, soil, bloom time, edible, description
