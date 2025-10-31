@@ -3,7 +3,7 @@
 
 :root {
   --bg: #171717;
-  --panel: #0f1110;
+  --panel: #000000;
   --green: #23ff6b;
   --muted-green: rgba(35,255,107,0.12);
   --cyan: #2be6ff;
@@ -16,7 +16,7 @@ html, body, #root {
   height: min-content;
   margin: 0;
   font-family: "JetBrains Mono", monospace; 
-  background: rgba(0, 0, 0, 0.63);
+  background: rgb(0, 0, 0);
   color: var(--term-text);
 }
 

@@ -1,0 +1,43 @@
+body, html{
+    /* background-color:  #000000; */
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.685);
+    border: solid 1px rgb(95, 255, 135);
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    width: 65%;
+    color: rgb(2, 164, 2);
+}
+
+#paste{
+    margin-top: 20px;
+}
+
+button{
+     height: 27.6px;
+     color: #7ef7b4;
+     background-color: #7ef7b551;
+     border: solid 1px #7ef7b551;
+     border-radius: 5px;
+}
+
+button:hover{
+    border-color: #7ef7b4;
+}
+
+::placeholder{
+    text-align: center;
+    color: rgba(172, 255, 47, 0.466);
+} 
+
+
+#route {
+    
+    background-color: #54ffbb22;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
