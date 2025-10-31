@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './Test.css'
-import { Placeholder } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
 

@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Element/>}></Route>
           <Route path="/test" element={<Test />} />
+          <Route path="/Test" element={<Test />} />  {/* add this if users might hit /Test */}
         </Routes>
       </BrowserRouter>
     </>
