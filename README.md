@@ -1,3 +1,4 @@
+
 # 🏠 APIHouse
 
 **APIHouse** is a free and open-source platform that provides **public APIs for testing and learning purposes**, designed especially for **students, developers, and testers** who need dummy APIs for projects, prototypes, or practice.
@@ -50,6 +51,11 @@
 <img width="1120" height="140" alt="image" src="https://github.com/user-attachments/assets/e674e59d-bcc4-4288-96ad-51aa2ff4e24f" />
 - paste in your web browser:
 <img width="809" height="65" alt="image" src="https://github.com/user-attachments/assets/3524ef8c-5dd7-4630-a683-55a3c98873f1" />
+
+# OR
+
+<img width="1919" height="682" alt="image" src="https://github.com/user-attachments/assets/a9e14d08-f8a8-49c3-9b3c-79437b543e26" />
+
 
 # Output: 
 <img width="1084" height="841" alt="image" src="https://github.com/user-attachments/assets/605a2b3f-1828-40f2-8125-19c3c1cb9c03" />
