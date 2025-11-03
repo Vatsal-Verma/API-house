@@ -39,7 +39,6 @@ function Test() {
     return(<>
 
             <div id="route" style={{width: "max-content", position: "absolute", left: "60px", top: "90px", cursor: "pointer"}} onClick={() => { navigate("/")}}>back</div>
-
             <header className="topbar">
                 <div className="brand">
                     <div className="logo-arrow">&gt;_</div>
@@ -53,6 +52,7 @@ function Test() {
                     <span className="cmd">~ $ api-house --help</span>
                 </div>
             </header>
+            
             <main className="content">
                 <section className="terminal-wrapper">
                     <div className="terminal">
@@ -82,7 +82,7 @@ function Test() {
 
                         </pre>
                         <br />
-                        
+                    <span className='status'> note </span> <span className="text" style={{fontSize: "14px"}}>The <b>first hit</b> of api on render may take 1 - 2 mins.</span>
                     </div>
                 </section>
             </main>
