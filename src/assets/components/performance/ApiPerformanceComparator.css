@@ -14,7 +14,7 @@
 * { box-sizing: border-box; }
 
 .term-page {
-  min-height: 100vh;
+  min-height: 70vh;
   background: var(--bg);
   color: var(--term-text);
   font-family: "JetBrains Mono", monospace;
