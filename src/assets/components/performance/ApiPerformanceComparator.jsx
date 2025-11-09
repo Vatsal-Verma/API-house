@@ -78,7 +78,7 @@ const ApiPerformanceComparator = () => {
 
   return (
     <div className="term-page">
-      {/* Header */}
+
       <header className="term-topbar">
         <div className="term-brand">
           <div className="term-logo">&gt;_</div>
@@ -101,6 +101,11 @@ const ApiPerformanceComparator = () => {
             <span className="dot cyan"></span>
           </div>
 
+          <br />
+
+          <span className="prompt-text">Test & Compare the APIs</span>
+          <br /><br />
+         
           <pre className="term-body">
             {urls.map((url, i) => (
               <div key={i} className="term-row">
@@ -245,9 +250,6 @@ const ApiPerformanceComparator = () => {
         )}
       </main>
 
-      <footer className="term-footer">
-        Built with React + Recharts • Powered by performance.now()
-      </footer>
     </div>
   );
 };

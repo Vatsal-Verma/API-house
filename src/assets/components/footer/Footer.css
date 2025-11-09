@@ -1,0 +1,80 @@
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background: transparent;
+  border-top: 1px solid rgba(35, 255, 107, 0.08);
+  color: var(--term-text);
+  font-family: "JetBrains Mono", monospace;
+}
+
+.footer-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 8px;
+}
+
+.footer-slash {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer-title {
+  color: var(--term-text);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--cyan);
+  font-size: 14px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--green);
+  text-shadow: 0 0 6px var(--green);
+}
+
+.footer-divider {
+  width: 120px;
+  height: 1px;
+  margin: 24px auto;
+  background: linear-gradient(90deg, transparent, var(--muted-green), transparent);
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  color: var(--cyan);
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: var(--green);
+  transform: scale(1.2);
+}
+
+.footer-copy {
+  color: rgba(43, 230, 255, 0.6);
+  font-size: 12px;
+}

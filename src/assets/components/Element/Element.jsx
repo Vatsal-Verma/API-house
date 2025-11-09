@@ -387,11 +387,7 @@ export default function Element() {
                 </section>
             </main>
 
-            <center>
-                <a href="https://github.com/vatsal-verma" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-github" style={{ color: "white", fontSize: "36px", marginBottom: "50px"}}></i>
-                </a>
-            </center>
+          
         </div>
     );
 }
