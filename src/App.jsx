@@ -14,12 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Element/>}></Route>
           <Route path="/test" element={<Test />} />
-          <Route path="/Test" element={<Test />} /> 
           <Route path="/performance" element={<ApiPerformanceComparator />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
-
-      <Footer></Footer>
     </>
   );
 }
