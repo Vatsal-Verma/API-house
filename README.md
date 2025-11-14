@@ -60,6 +60,17 @@
 # Output: 
 <img width="1084" height="841" alt="image" src="https://github.com/user-attachments/assets/605a2b3f-1828-40f2-8125-19c3c1cb9c03" />
 
+
+# Test or Compare the performance of API's
+
+- Here, `/performance` can be utilised to compare the performance of two or more api's based on their latency, bandwidth etc.
+- Enter two or more API's in the input field and get the performance chart. 
+
+<img width="1902" height="830" alt="image" src="https://github.com/user-attachments/assets/de927fa9-2905-43ec-8258-fe88cd90553d" />
+
+# Output: 
+<img width="1649" height="874" alt="image" src="https://github.com/user-attachments/assets/81dfae5b-c1c6-445e-bcaf-ae46a04f47b4" />
+
 ---
 
 # Contribution Guidelines
