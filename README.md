@@ -13,8 +13,8 @@
 - 🔍 **Search & Filter** – Quickly find the API you need for your project.
 - 🌐 **Frontend:** React.js  
 - 🔗 **Backend:** Spring Boot (REST APIs)
-- 🧩 **Database:** MySQL / PostgreSQL (optional)
-- 📈 **Performance Optimized** – Caching and efficient response handling.
+- 🧩 **Database:** MongoDB 
+- 📈 **Performance Optimized** – efficient response handling.
 
 ---
 
