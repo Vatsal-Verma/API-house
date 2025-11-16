@@ -4,6 +4,17 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useNavigate } from "react-router-dom";
 
 export default function Element() {
+
+    const banner = `
+      ____          _            __ _ _
+     / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\
+     \\___ | '_ | '_| | '_ \\/ _\` | \\ \\ \\ \\
+      ___)| |_)| | | | | || (_| |  ) ) ) )
+     |____| .__|_| |_|_| |_\\__, | / / / /
+    ======|_|==============|___/=/_/_/_/
+          :: Spring Boot ::
+  `;
+
     const [navBar, setNavBar] = useState(false);
     const [copiedApi, setCopiedApi] = useState(null);
 
@@ -52,10 +63,15 @@ export default function Element() {
                             </span>
                             <br /><br />
                             <span className="prompt">$</span> <span className="prompt-text">api-house --search</span>
+                            <div className="status">
+                                    <pre  style={{margin: "auto"}}>{banner}</pre>
+                            </div>
                         </pre>
                     </div>
                 </section>
             </main>
+
+       
 
             <div className="showNav" onClick={() => setNavBar(true)}>
                 <span className="status" style={{ cursor: "pointer" }}>status</span>
@@ -121,7 +137,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Random User Generator</span>
-                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
                             <br />
                             <span className="text">
                                 This API generates random names for girls and boys.
@@ -183,7 +199,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Country Details API</span>
-                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
                             <br />
                             <span className="text">
                                 Provides details of countries. Fields include: Name, Capital, Region, Population, Area, Currency, Languages, Timezones, Flag
