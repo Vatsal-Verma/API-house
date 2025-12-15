@@ -137,7 +137,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Random User Generator</span>
-                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                         
                             <br />
                             <span className="text">
                                 This API generates random names for girls and boys.
@@ -199,7 +199,7 @@ export default function Element() {
 
                         <pre className="terminal-text">
                             <span className="prompt">-</span> <span className="prompt-text">Country Details API</span>
-                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>                                                           <span className="status-error"> cors error </span>
+                            <span className="status" style={{cursor: "pointer"}} onClick={() => { navigate("/test")}}> test </span>
                             <br />
                             <span className="text">
                                 Provides details of countries. Fields include: Name, Capital, Region, Population, Area, Currency, Languages, Timezones, Flag
